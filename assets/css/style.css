@@ -1,3 +1,8 @@
-.right {
-    float: right
+
+.hide {
+    visibility: hidden;
+}
+
+.off {
+    display: none;
 }
