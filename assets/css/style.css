@@ -6,3 +6,11 @@
 .off {
     display: none;
 }
+
+body {
+    background-color: black;
+}
+#message {
+font-family: 'Courier New', Courier, monospace;
+color: green;
+}

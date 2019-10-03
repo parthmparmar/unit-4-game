@@ -12,34 +12,34 @@
 <body>
 <div class="container">
     <div class="row">
-        <h1>Stranger Things - RPG Game</h1>
+        <h1 class = "col-md-12 text-center text-light">Stranger Things - RPG Game</h1>
     </div>
     <div class="row">
-        <h2>Message / Controlls</h2>
+        <h2 class="col-md-12 text-light">Message / Controls</h2>
     </div>
     <div class="row">
-        <div id="message"></div>
+        <div id="message" class = "col-md-12 border rounded p-3"></div>
     </div>
 
     <div class="row">
-        <div class = "control">
+        <div class = "control m-3 btn-lg">
             <button type="button" class="btn btn-danger attack">Attack</button>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6"><h2 id="header1">Select Your Player</h2></div>
-        <div class="col-md-6 enemy_header"><h2>Enemy</h2></div>
+        <div class="col-md-6 text-light"><h2 id="header1">Select Your Player</h2></div>
+        <div class="col-md-6 enemy_header text-light"><h2>Enemy</h2></div>
     </div>
     <div class="row">
-            <section id = "selection" class="players card-group col-md-10">
-                <div id = "player1" class="card player_select" value="0" style="width: 12rem;">
+            <section id = "selection" class="players card-group col-md-12 p-3">
+                <div id = "player1" class="card player_select m-2 border rounded" value="0" style="width: 12rem;">
                     <img src="assets/images/Eleven.jpg" class="card-img-top" alt="Eleven">
                     <div class="card-body text-center">
                         <p class="card-text">
                             <strong>Eleven</strong><br>
-                            Health: <span Id="health">50</span><br>
-                            Attach: <span Id="attack">1</span><br>
-                            Counter Attack: <span Id="c_attack">50</span>
+                            Health: <span Id="health">200</span><br>
+                            <!-- Attack: <span Id="attack">1</span><br> -->
+                            <!-- Counter Attack: <span Id="c_attack">50</span> -->
                         </p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
             <section id = "fight" class="players card-group col-md-6"></section>
     </div>
     <div class="row">
-            <h2>Select an Enemy to Fight</h2>
+            <h2 class="text-light">Select an Enemy to Fight</h2>
     </div>
     <div class="row">
         <section id="enemy" class="players card-group">
